@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f9f7ed;
+}
+#header {
+	background-color: #036;
+	padding: 4px 5px;
+	border-bottom: 10px solid #3f4c6b;
+	height: 100px;
+}
+#main {
+	float: right;
+	width: 70%;
+	padding-right: 100px;
+	margin-bottom: 30px;
+}
+ul#nav {
+	margin: 0;
+	padding: 50px 0 0 10px;	
+	list-style-type: none;
+	float: left;
+	width: 15%;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+ul#nav li {
+	border: 1px solid #330;
+	padding: 4px;
+	margin: 4px 0;
+	background-color: #036;
+}
+ul#nav li a {
+	text-decoration: none;
+	color: #eee;
+	display: block;
+}
+ul#nav li a:hover {
+	color: #09f;
+}
+#footer {
+	clear: both;
+	height: 30px;
+	background-color: #3f4c6b;
+}
+#download {
+	position: relative;
+	top: -90px;
+	margin-left: 600px;
+	background-color: #09f;
+	width: 240px;
+	text-align: center;
+	-moz-border-radius: 10px;
+	border: 2px solid #3f4c6b;
+}
+.section {
+	margin-bottom: 20px;
+	border-top: 1px dotted #ccc;
+}
+/*--------------------------------*/
+h1, .description {
+	margin: 0;
+	font-family: Georgia, "Lucida Grande", Arial, Helvetica, Bitstream Vera sans, sans-serif;
+}
+h2 {
+	margin: 0;
+	font-family: Arial, Helvetica, Bitstream Vera sans, sans-serif;
+}
+p {
+	margin: 0;
+	font-size: 14px;
+}
+code, pre {
+	font-size: 14px;
+	border: 1px dashed #ccc;
+	background-color: #001C1C;
+	color: #6c3;
+	display: block;
+	margin-left: 20px;
+	padding: 4px;
+}
+#download h1 {
+	padding: 10px;
+}
+#download h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+#download h1 a:hover {
+	text-decoration: underline;
+}
+#header h1 {
+	color: #09f;
+	font-size: 50px;
+	letter-spacing: -1px;
+	margin-bottom: -8px;
+}
+#header h2 {
+	color: #eee;
+	font-size: 20px;
+	letter-spacing: -1px;
+}
+#header p {
+	width: 50%;
+	color: #007575;
+	font-size: 12px;
+	margin: 5px 0 10px 0;
+}
+#main h1 {
+	font-size: 22px;
+	color: #333;
+}
+#main h2 {
+	font-size: 15px;
+	margin-top: 20px;
+}
+#main ul {
+	margin: 0;
+	padding: 0 0 0 50px;
+	font-size: 14px;
+}
+.section p, .section h2 {
+	padding-left: 20px;
+}
+.description {
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-bottom: 20px;
+	color: #333;
+	line-height: 25px;
+}
+
