@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "japgolly-Saikuro"
+  s.name = "metric_fu-Saikuro"
   s.version = "1.1.1.0"
   s.author = "David Barri"
   s.email = "japgolly@gmail.com"
