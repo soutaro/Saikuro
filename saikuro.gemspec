@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
   s.executables = ['saikuro']
   s.has_rdoc = true
   s.extra_rdoc_files = ["README"]
+  s.license     = 'BSD'
 end
