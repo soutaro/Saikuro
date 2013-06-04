@@ -3,10 +3,10 @@
 Gem::Specification.new do |s|
   s.name = "metric_fu-Saikuro"
   s.version = "1.1.1.0"
-  s.author = "David Barri"
-  s.email = "japgolly@gmail.com"
-  s.homepage = "https://github.com/japgolly/Saikuro"
-  s.rubyforge_project = 'japgolly-Saikuro'
+  s.author = ["Zev Blut", "David Barri"]
+  s.email = ["zb@ubit.com", "japgolly@gmail.com"]
+  s.homepage = "https://github.com/metricfu/Saikuro"
+  s.rubyforge_project = 'Saikuro'
   s.platform = Gem::Platform::RUBY
   s.summary = "Saikuro is a Ruby cyclomatic complexity analyzer."
   s.description = "When given Ruby
