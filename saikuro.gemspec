@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
+$:.push File.expand_path("../lib", __FILE__)
+require "saikuro/version"
 
 Gem::Specification.new do |s|
   s.name = "metric_fu-Saikuro"
-  s.version = "1.1.1.0"
+  s.version = Saikuro::VERSION
   s.author = ["Zev Blut", "David Barri"]
   s.email = ["zb@ubit.com", "japgolly@gmail.com"]
   s.homepage = "https://github.com/metricfu/Saikuro"
