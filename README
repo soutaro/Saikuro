@@ -8,19 +8,7 @@ tokens on each line of code.
 
 ## Installation:
 
-Option 1: Using setup.rb
-* login as root
-* run "ruby setup.rb all"
-
-Option 2: The manual way
-Saikuro is a single Ruby file that is executable.  You can run it where
-you unpacked it or you can move it your preferred location such as
-"/usr/local/bin" or "~/bin".
-
-Note:
-Ruby 1.8.5 has a bug in ri_options that will prevent Saikuro from
-running.  If you are using 1.8.5 please apply this patch :
-http://www.ruby-lang.org/cgi-bin/cvsweb.cgi/ruby/lib/rdoc/ri/ri_options.rb.diff?r1=1.2.2.13;r2=1.2.2.14
+    gem install metric_fu-Saikuro
 
 ## Usage:
 
