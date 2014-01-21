@@ -100,7 +100,7 @@ module Saikuro
         lexer = RubyLex.new
         # Turn of this, because it aborts when a syntax error is found...
         lexer.exception_on_syntax_error = false
-        lexer.set_input(File.new(file,"r"))
+        lexer.set_input(File.new(file,"rb"))
         top.lexer = lexer
         STDOUT.puts "Parsing" if $VERBOSE
         top.parse
