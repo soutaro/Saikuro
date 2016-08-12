@@ -35,7 +35,7 @@ class SaikuroCMDLineRunner
     Find.find(path) do |f|
       if !FileTest.directory?(f)
         if f.split(File::Separator).none? {|component| component =~ /\A\..+/ }
-          if f =~ /rb$/
+          if f =~ /\.rb$/
             files<< f
           end
         end
