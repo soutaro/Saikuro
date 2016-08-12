@@ -34,9 +34,9 @@ class SaikuroCMDLineRunner
     files = Array.new
     Find.find(path) do |f|
       if !FileTest.directory?(f)
-	if f =~ /rb$/
-	  files<< f
-	end
+        if f =~ /rb$/
+          files<< f
+        end
       end
     end
     files
